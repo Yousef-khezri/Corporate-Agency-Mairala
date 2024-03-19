@@ -1,4 +1,48 @@
-* {
-    width: 100vw;
-    height: 100vh;
+.erste_sec{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color:  rgb(129, 95, 95);
+    margin-top: 60px;
+}
+hr{
+    width: 35px;
+    height: 2px;
+    background-color: rgb(111, 95, 95);
+}
+.p_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p_div>p{
+    width: 25%;
+    text-align: center;
+    color:  rgb(129, 95, 95);
+    margin-bottom: 30px;
+}
+.container_u{
+    max-width: 100%;
+    display: flex;
+}
+.txt_div{
+    width: 30%;
+    margin-left: 15%;
+}
+.txt_div>h4{
+    color:  rgb(129, 95, 95);
+}
+.txt_div>p{
+    color:  rgb(69, 55, 55);
+}
+.bild_div{
+    width: 100%;
+    background-image: url("./img/foto-1.png");
+    background-size: cover;
+}
+.txt_div>button{
+    display: flex;
+    align-items: center;
+    padding: 7px;
 }
