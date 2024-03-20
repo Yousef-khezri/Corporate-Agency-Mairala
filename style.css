@@ -1,5 +1,4 @@
 
-
 #divFooter{
     margin: 50px;
    
@@ -20,17 +19,16 @@ color: rgb(114, 56, 11);
     padding: 100px;
     background-color: rgb(36, 36, 36);
 }
-=======
 
 .erste_sec{
     width: 100%;
 }
-h2{
+.erste_sec .container_o h2{
     text-align: center;
     color:  rgb(129, 95, 95);
     margin-top: 60px;
 }
-hr{
+.erste_sec hr{
     width: 35px;
     height: 2px;
     background-color: rgb(111, 95, 95);
@@ -137,20 +135,14 @@ body main .section_2 .our_skills .charts_our_skills label {
 }
 
 /* ----------- end section 2 yousef khezri ------------ */
-
- *{ margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
-}
-
+/* 
 body {
   min-height: 100vh;
   background: url("./img/gray-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
 }
-
+ */
 .header {
   position: fixed;
   top: 0;
