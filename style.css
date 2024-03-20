@@ -1,8 +1,5 @@
- /**{
-   width: 100vw;
-    height: 100vh;
-    
-}*/
+
+
 #divFooter{
     margin: 50px;
    
@@ -23,3 +20,201 @@ color: rgb(114, 56, 11);
     padding: 100px;
     background-color: rgb(36, 36, 36);
 }
+=======
+
+.erste_sec{
+    width: 100%;
+}
+h2{
+    text-align: center;
+    color:  rgb(129, 95, 95);
+    margin-top: 60px;
+}
+hr{
+    width: 35px;
+    height: 2px;
+    background-color: rgb(111, 95, 95);
+}
+.p_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.p_div>p{
+    width: 25%;
+    text-align: center;
+    color:  rgb(129, 95, 95);
+    margin-bottom: 30px;
+}
+.container_u{
+    max-width: 100%;
+    display: flex;
+}
+.txt_div{
+    width: 30%;
+    margin-left: 15%;
+}
+.txt_div>h4{
+    color:  rgb(129, 95, 95);
+}
+.txt_div>p{
+    color:  rgb(69, 55, 55);
+}
+.bild_div{
+    width: 100%;
+    background-image: url("./img/foto-1.png");
+    background-size: cover;
+}
+.txt_div>button{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+}
+
+
+/* ------------- section 2 yousef khezri -------------- */
+body main .section_2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main .section_2 .services_we_provide {
+    width: 60%;
+}
+body main .section_2 .services_we_provide #divs-info-services {
+    display: flex;
+}
+body main .section_2 .services_we_provide img {
+    width: 10%;
+}
+
+body main .section_2 .our_skills {
+    position: relative;
+    display: inline-block;
+    background-image: url(img/foto-9.png);
+    color: #eee;
+    width: 100%;
+    height: 300px;
+}
+body main .section_2 .our_skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1
+}
+
+body main .section_2 .our_skills .charts_our_skills {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+body main .section_2 .our_skills .charts_our_skills div {
+    width: 15%;
+    height: 160px;
+}
+
+body main .section_2 .our_skills .charts_our_skills label {
+    margin-top: 50px;
+}
+
+.section_2 .our_skills .charts_our_skills #chart-marketing,
+#chart-reaserch, #chart-management, #chart-consulatancy,
+#chart-promotion {
+    width: 100%;
+    min-width: 20%;
+    background-image: url(img/skill-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------- end section 2 yousef khezri ------------ */
+
+ *{ margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url("./img/gray-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: rgb(30, 30, 30);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a {
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.navbar a::before {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #fff;
+  transition: 0.3s;
+}
+
+.navbar a:hover::before {
+  width: 100%;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main-p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.main-h {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
