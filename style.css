@@ -1,4 +1,27 @@
 
+
+#divFooter{
+    margin: 50px;
+   
+}
+#footerH2{
+color: rgb(114, 56, 11);
+}
+
+#divImg{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    object-fit: none;
+}
+#endFotter{
+    color: aliceblue;
+    padding: 100px;
+    background-color: rgb(36, 36, 36);
+}
+=======
+
 .erste_sec{
     width: 100%;
 }
