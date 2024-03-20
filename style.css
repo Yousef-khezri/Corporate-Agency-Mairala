@@ -1,5 +1,71 @@
-* {
-  margin: 0;
+
+/* ------------- section 2 yousef khezri -------------- */
+body main .section_2 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main .section_2 .services_we_provide {
+    width: 60%;
+}
+body main .section_2 .services_we_provide #divs-info-services {
+    display: flex;
+}
+body main .section_2 .services_we_provide img {
+    width: 10%;
+}
+
+body main .section_2 .our_skills {
+    position: relative;
+    display: inline-block;
+    background-image: url(img/foto-9.png);
+    color: #eee;
+    width: 100%;
+    height: 300px;
+}
+body main .section_2 .our_skills::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1
+}
+
+body main .section_2 .our_skills .charts_our_skills {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+body main .section_2 .our_skills .charts_our_skills div {
+    width: 15%;
+    height: 160px;
+}
+
+body main .section_2 .our_skills .charts_our_skills label {
+    margin-top: 50px;
+}
+
+.section_2 .our_skills .charts_our_skills #chart-marketing,
+#chart-reaserch, #chart-management, #chart-consulatancy,
+#chart-promotion {
+    width: 100%;
+    min-width: 20%;
+    background-image: url(img/skill-shape.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------- end section 2 yousef khezri ------------ */
+
+ *{ margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
