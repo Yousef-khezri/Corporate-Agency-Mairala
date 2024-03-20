@@ -1,6 +1,6 @@
 
-
-#divFooter{
+/* abdulah*/
+body footer #divFooter{
     margin: 50px;
    
 }
@@ -9,23 +9,28 @@ color: rgb(114, 56, 11);
 }
 
 #divImg{
-    height: 350px;
-    width: 350px;
+    /* height: 25%; */
+    width: 100%;
     display: flex;
     flex-direction: row;
     object-fit: none;
+}
+body footer #divImg img {
+    width: 25%;
 }
 #endFotter{
     color: aliceblue;
     padding: 100px;
     background-color: rgb(36, 36, 36);
 }
-=======
+/* end abdulrahman*/
 
+
+/* Adriana */
 .erste_sec{
     width: 100%;
 }
-h2{
+.erste_sec h2{
     text-align: center;
     color:  rgb(129, 95, 95);
     margin-top: 60px;
@@ -138,32 +143,48 @@ body main .section_2 .our_skills .charts_our_skills label {
 
 /* ----------- end section 2 yousef khezri ------------ */
 
- *{ margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+/* Lina */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* body {
   min-height: 100vh;
   background: url("./img/gray-bg.png") no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  /* position: fixed; */
+  /* top: 0;
+  left: 0; */
   width: 100%;
-  padding: 20px 100px;
-  background: rgb(30, 30, 30);
+  height: 30%;
+  /* padding: 20px 100px; */
+  /* background: rgb(30, 30, 30); */
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  background: url("./img/gray-bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
-
+body header .nav_header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 .logo {
   font-size: 32px;
   color: #fff;
@@ -176,7 +197,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar a {
+body header .navbar a {
   position: relative;
   font-size: 18px;
   color: #fff;
@@ -212,9 +233,12 @@ body {
   color: #fff;
 }
 
-.main-h {
-  font-size: 50px;
+.main-P {
+  font-size: 25px;
   color: #fff;
   text-align: center;
+}
+body header .main-div #b-premium {
+    color: red;
 }
 
